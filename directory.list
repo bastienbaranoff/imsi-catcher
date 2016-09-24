@@ -1,0 +1,21 @@
+# The directory translates caller IDs to names.
+# Format: <phone number> <Name>\n");
+
+# The number must be given as received:
+# National number: The national prefix must be included or 'n' must be used.
+# E.g.: n9036681733 or 19036681733 (in case '1' is the national prefix)
+# E.g.: n21250993 or 021250993 (in case '0' is the national prefix)
+# International number: The international prefix must be included or 'i'.
+# E.g.: i4921256483 or 0114921256493 (in case '011' is the intl. prefix)
+# E.g.: i19036681733 or 0019036681733 (in case '00' is the intl. prefix)
+# Subscriber number: No prefix mus be included or 's' must be used.
+# E.g.: s50993 or 1733
+
+# Note: National numbers always require the area code. International numbers
+# always require the country code + area code.
+
+021250993		German number
+0019036681739		American number
+n48416600		German hospital
+
+
